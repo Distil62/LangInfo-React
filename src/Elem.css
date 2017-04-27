@@ -1,0 +1,27 @@
+.DropMenu
+{
+    text-shadow: 0px 0px 5px #8c8c8c;
+}
+
+.elemList
+{
+    border-top-color: #ececec;
+    border-style: groove;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 1px;
+    height: 80px;
+    background-color: white;
+    transition: background-color 700ms;
+}
+
+.elemList:hover
+{
+    background-color: orange;
+}
+
+.elemList:active
+{
+    background-color: #ff7600;
+}

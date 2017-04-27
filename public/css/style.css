@@ -1,0 +1,33 @@
+.Barre
+{
+    margin-left: 5px;
+    display: inline-grid;
+    cursor: pointer;
+    width: 30px;
+}
+.Barre-Top
+{
+    height: 6px;
+    border-top: 5px solid black;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+
+.Barre-Mid
+{
+    height: 6px;
+    border-top: 5px solid black;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+
+.Barre-Bot
+{
+    height: 6px;
+    border-top: 5px solid black;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}

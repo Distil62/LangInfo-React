@@ -1,0 +1,108 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.Carte
+{
+    text-align: center;
+    border: rgba(255, 255, 255, 0);
+    border-style: groove;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 10px 10px 10px #8e8e8e;
+}
+h1
+{
+  text-align: center;
+}
+
+.Titre
+{
+    display: table;
+    background: #FF9800;;
+    box-shadow: 2px 1px 5px 0px #aaa;
+    padding: 5px 5px 5px 10%;
+}
+
+.Change
+{
+    background: dodgerblue;
+    font-size: 24px;
+    border: blue;
+    font-family: monospace;
+    display: inline-block;
+    color: white;
+    text-shadow: 0px 0px 5px #fff;
+    padding: 6px auto 6px auto;
+    border-radius: 3px;
+    margin-right: 4%;
+}
+
+.DivButton
+{
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.GetStarted
+{
+    background: darkorange;
+    font-size: 24px;
+    border: orangered;
+    font-family: monospace;
+    display: inline-block;
+    color: white;
+    text-shadow: 0px 0px 5px #fff;
+    padding: 6px auto 6px auto;
+    border-radius: 3px;
+}
+
+.Change:active
+{
+  background: #1a83e8;
+}
+
+.Change:focus
+{
+  outline: none;
+}
+
+.description
+{
+    font-size: 16px; 
+    margin-right: 2%;
+    margin-left: 2%;
+    text-align: justify;
+    text-indent: 35px;
+}
+
+.Ico
+{
+  border-radius: 15px;
+  height: 128px;
+  width: 128px;
+}
+
+.Recherche
+{
+  margin: 150px;
+}
+
+.DropMenu
+{
+  position: absolute;
+}
+
+.ButtonNone
+{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.ButtonNone:focus
+{
+  outline: none;
+}
